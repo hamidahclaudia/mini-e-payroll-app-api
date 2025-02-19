@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniEPayroll.Api", "MiniEPayroll.Api\MiniEPayroll.Api.csproj", "{3A780FB5-2A5A-4085-9701-C33CB23C9D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniEPayroll.Domain", "MiniEPayroll.Domain\MiniEPayroll.Domain.csproj", "{50CFE51A-E396-4D15-BDB1-FF9D733E230D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniEPayroll.Application", "MiniEPayroll.Application\MiniEPayroll.Application.csproj", "{BEE48C5C-D787-4D9D-B386-0F5049C275DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniEPayroll.Infrastructure", "MiniEPayroll.Infrastructure\MiniEPayroll.Infrastructure.csproj", "{7ECF3839-ACCC-4700-B175-6F03DD84D4C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniEPayroll.Test", "MiniEPayroll.Test\MiniEPayroll.Test.csproj", "{F447CCC4-BD61-4EEE-BEB8-A886EDC51433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A780FB5-2A5A-4085-9701-C33CB23C9D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A780FB5-2A5A-4085-9701-C33CB23C9D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A780FB5-2A5A-4085-9701-C33CB23C9D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A780FB5-2A5A-4085-9701-C33CB23C9D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CFE51A-E396-4D15-BDB1-FF9D733E230D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CFE51A-E396-4D15-BDB1-FF9D733E230D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CFE51A-E396-4D15-BDB1-FF9D733E230D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CFE51A-E396-4D15-BDB1-FF9D733E230D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE48C5C-D787-4D9D-B386-0F5049C275DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE48C5C-D787-4D9D-B386-0F5049C275DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE48C5C-D787-4D9D-B386-0F5049C275DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE48C5C-D787-4D9D-B386-0F5049C275DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECF3839-ACCC-4700-B175-6F03DD84D4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECF3839-ACCC-4700-B175-6F03DD84D4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECF3839-ACCC-4700-B175-6F03DD84D4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECF3839-ACCC-4700-B175-6F03DD84D4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F447CCC4-BD61-4EEE-BEB8-A886EDC51433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F447CCC4-BD61-4EEE-BEB8-A886EDC51433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F447CCC4-BD61-4EEE-BEB8-A886EDC51433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F447CCC4-BD61-4EEE-BEB8-A886EDC51433}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
